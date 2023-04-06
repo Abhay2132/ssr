@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo hehe",
+    "dev": "node bin/dev",
+    "build": "node bin/build"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,7 @@
   },
   "homepage": "https://github.com/Abhay2132/ssr#readme",
   "dependencies": {
+    "prettier": "^2.8.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
